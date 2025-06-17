@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'password'  // replace with your repo
+                git 'https://github.com/sravan778899/password.git'  // replace with your repo
             }
         }
 
